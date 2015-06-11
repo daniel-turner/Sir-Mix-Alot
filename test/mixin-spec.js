@@ -73,6 +73,7 @@ describe('Model', function() {
       }
       Model.extend(Obj);
       var obj = new Obj();
+
       obj.should.have.property('save');
       obj.should.have.property('destroy');
       Obj.should.have.property('find');
